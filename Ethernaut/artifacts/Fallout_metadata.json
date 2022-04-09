@@ -100,11 +100,11 @@
 	},
 	"sources": {
 		"Ethernaut/2_fallout.sol": {
-			"keccak256": "0x5d525ef168c9ac07acbc3eb9b6777f3b8b5f29dbe79067e62a5babf57482cce5",
+			"keccak256": "0x7df48e0e3e8e070d3c9d1d5dfc33ac20e6d6670e9484a9d338cd36dd4b760170",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc592b6bc9f9f1289f75327f7c7c33930410f997ef6d2eed88b655404aa0add2",
-				"dweb:/ipfs/QmbyD3ZZAhtwYMcd7VpRnGjNWi7WTWHL4AyQ9beRAMBc3V"
+				"bzz-raw://e1a7ff52e11464d04cacc621ab25eb23bd807b72596d06fb8e95593f97e35a87",
+				"dweb:/ipfs/QmSzevWbsu8Tv46uPYJs8AsTB1i9p72KrpgTteMJTPHCfp"
 			]
 		}
 	},

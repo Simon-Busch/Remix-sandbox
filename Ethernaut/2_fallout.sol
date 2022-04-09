@@ -2,9 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract Fallout {
-    mapping (address => uint) allocations;
+  mapping (address => uint) allocations;
   address payable public owner;
-
 
   /* constructor */
   function Fal1out() public payable {
@@ -37,3 +36,8 @@ contract Fallout {
     return allocations[allocator];
   }
 }
+
+/*
+    1) Call Fal1out with msg.value of a few wei
+    2) collect everything
+*/

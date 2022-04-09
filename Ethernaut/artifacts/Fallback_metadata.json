@@ -102,11 +102,11 @@
 	},
 	"sources": {
 		"Ethernaut/1_fallback.sol": {
-			"keccak256": "0x3c94fa03a278e9161518b66fe5f259ff204109090ef7c6212b19a25bccc926c2",
+			"keccak256": "0x6309a9528e2f15a2367ec4d495dd74bfbdf4e04e689b62a62f19dd5362f62730",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2cd38d5a16f676edeffb49d8406a0410ea4dae84f5422a4eaa4729e9ecd2f0d4",
-				"dweb:/ipfs/QmdMKQDcE8mxFx6Q8F9etnd3hq9NoXucp5NpdZzkQPh2bE"
+				"bzz-raw://7799f92ba977bb569a31aa9243558f64e4f229fbefb3b180316f0af1e556145e",
+				"dweb:/ipfs/QmaD7u3V3LJoPSFDC4pjJvE7iP6b7vAFeKKozMtoyuSdxr"
 			]
 		}
 	},

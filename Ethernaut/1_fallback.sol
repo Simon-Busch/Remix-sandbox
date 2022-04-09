@@ -40,3 +40,8 @@ contract Fallback {
     owner = payable(msg.sender);
   }
 }
+
+/*
+    1) Call contribute with a small wei value
+    2) Call fallback
+*/
