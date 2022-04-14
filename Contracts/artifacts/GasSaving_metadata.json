@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Contracts/Gas.sol": {
-			"keccak256": "0x4153828a0774a051efec7d3ad26b9f4a8b35a6b960326872629efe16e287e1ae",
+			"keccak256": "0x844fdeacd6cb2bf3926a8faad40d2af140b5dfc46491cac02c3392c82a7e2922",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c9084820d846650b1b9982f491cdbbdbcd58fc6877e0c8f071aba957ec46e3d",
-				"dweb:/ipfs/QmcMVg26D3Qc471un5GtmjJe5PMpzCS22nwD9Xd97nivhC"
+				"bzz-raw://5968a5082e18f3f95b2d35a0cc50c8bce778fe0cfb9f8fd11ad675976371cb3f",
+				"dweb:/ipfs/Qmeb8KRBPNYBAwNMN1A29HHEyFy1Tst3q87Vug53ARPCgp"
 			]
 		}
 	},
