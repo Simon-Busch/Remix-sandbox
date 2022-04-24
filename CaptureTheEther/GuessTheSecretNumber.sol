@@ -1,0 +1,38 @@
+pragma solidity ^0.4.21;
+
+contract GuessTheSecretNumberChallenge {
+    bytes32 answerHash = 0xdb81b4d58595fbbbb592d3661a34cdca14d7ab379441400cbfa1b78bc447c365;
+
+    function GuessTheSecretNumberChallenge() public payable {
+        require(msg.value == 1 ether);
+    }
+    
+    function isComplete() public view returns (bool) {
+        return address(this).balance == 0;
+    }
+
+    function guess(uint8 n) public payable {
+        require(msg.value == 1 ether);
+
+        if (keccak256(n) == answerHash) {
+            msg.sender.transfer(2 ether);
+        }
+    }
+}
+
+/*
+  const bruteForceHash = (range: number, targetHash: string) => {
+    for (let i = 0; i < range; i++) {
+      const hash = ethers.utils.keccak256([i]);
+      if (targetHash.includes(hash)) return i;
+    }
+    throw new Error(`No hash found within range ${range}`);
+  };
+
+  const number = bruteForceHash(
+    2 ** 8,
+    `0xdb81b4d58595fbbbb592d3661a34cdca14d7ab379441400cbfa1b78bc447c365`
+  );
+
+  console.log(number);
+*/
