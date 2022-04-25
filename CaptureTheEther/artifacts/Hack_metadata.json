@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CaptureTheEther/GuessTheNewNumber.sol": "Hack"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CaptureTheEther/GuessTheNewNumber.sol": {
+			"keccak256": "0x321d592b4cc919ab1e859f913f93dbf24ea6824716cc9d65f4e3351987e765d4",
+			"urls": [
+				"bzzr://3b661261bd06a3a6b5d4fc7a8f7ca0dc5456b6500fc0d063902928b6bd929a80"
+			]
+		}
+	},
+	"version": 1
+}

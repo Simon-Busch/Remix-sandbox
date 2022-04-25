@@ -74,12 +74,6 @@
 			"type": "function"
 		},
 		{
-			"inputs": [],
-			"payable": true,
-			"stateMutability": "payable",
-			"type": "constructor"
-		},
-		{
 			"constant": true,
 			"inputs": [],
 			"name": "isComplete",
@@ -92,6 +86,12 @@
 			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
+		},
+		{
+			"inputs": [],
+			"payable": true,
+			"stateMutability": "payable",
+			"type": "constructor"
 		}
 	]
 }

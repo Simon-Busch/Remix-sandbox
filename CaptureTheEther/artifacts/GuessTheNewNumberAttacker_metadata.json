@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "challengeAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "challenge",
+				"outputs": [
+					{
+						"internalType": "contract IGuessTheNewNumberChallenge",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CaptureTheEther/GuessTheNewNumberHack.sol": "GuessTheNewNumberAttacker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CaptureTheEther/GuessTheNewNumberHack.sol": {
+			"keccak256": "0xde80f9baacfe7c51752f6fe8255f929b97f63ca3d974ae7ee95a7faf66149646",
+			"urls": [
+				"bzz-raw://72d513f38a2ed39bcb242538ff220cf2b2bb9c22d70d618fdfc7c86b871e6ca1",
+				"dweb:/ipfs/Qmari2vvC5pzMFEAkfCQxiiM1qxQ2nURQmKKiiW7eJHo5D"
+			]
+		}
+	},
+	"version": 1
+}
