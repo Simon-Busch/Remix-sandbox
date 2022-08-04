@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_coinFlipAddr",
+						"type": "address"
+					}
+				],
+				"name": "coinFlipGuess",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "consecutiveWins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/3_CoinFlip.sol": "CoinFlipGuess"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/3_CoinFlip.sol": {
+			"keccak256": "0x13759355b085a0ebcff43e791379f624ff4b3233d7e959530bc6f2695e98b510",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bb55a11f016ffb130dd03510489e4259213d97b23a84ed7422d6a53ee690c5a",
+				"dweb:/ipfs/QmRSrALBxjkkebHRVM9xoiUw9N5xBBe7nndDjD8QMfTU5e"
+			]
+		}
+	},
+	"version": 1
+}
