@@ -4,7 +4,26 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -12,13 +31,20 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"constructor": {
+					"notice": "Network: Goerli Aggregator: ETH/USD Address: 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e"
+				},
+				"getLatestPrice()": {
+					"notice": "Returns the latest price"
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FundMe/PriceConverter.sol": "PriceConverter"
+			"contracts/FundMe/PriceConverter.sol": "PriceConsumerV3"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -41,11 +67,11 @@
 			]
 		},
 		"contracts/FundMe/PriceConverter.sol": {
-			"keccak256": "0xc32aca59264bfb6bc3725bdfc5dbae5c9c0f34f7dd9dea1aec0212207fabf733",
+			"keccak256": "0x480c54fab298a75bebe7c80d0c379b0de90e989bd677a87a654b48993d924b8c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed24f0df6df512314a014586d42aad61e6acb6d6a7f384fd46350a90ff17db13",
-				"dweb:/ipfs/QmZNg3HaUanmZj465kxY1AEEAyRYviiZ4nabFcvaVBZP6P"
+				"bzz-raw://d0edf7ba0e6e02c4615b42f15d26f9e1f8a55c4d4d606bdef07706227783eb46",
+				"dweb:/ipfs/QmNpjmwMrUrmV88Kb1HRKEHno6Qbxb9ShTh2R8kQDQdjep"
 			]
 		}
 	},
